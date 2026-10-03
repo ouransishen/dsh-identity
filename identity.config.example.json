@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "did": "did:web:example.com",
+    "didDocumentUrl": "https://example.com/.well-known/did.json",
+    "didBaseUrl": "https://did.example.com",
+
+    "rootKeyPath": "~/did/agent-root.json",
+    "sessionKeyPath": "~/did/session-key.json",
+    "keyPath": "~/agent-identity/agent.key",
+    "certPath": "~/agent-identity/agent.crt",
+    "chainPath": "~/agent-identity/agent_chain.crt",
+    "auditLogPath": "~/agent-identity/identity-audit.jsonl"
+  },
+
+  "operator": {
+    "identifiers": [
+      { "label": "操作者个人署名证书私钥", "path": "~/path/to/operator-signing.key" },
+      { "label": "操作者 GPG 签名钥（有口令，需本人在场）", "gnupg": "0000000000000000" }
+    ]
+  }
+}

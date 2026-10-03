@@ -1,0 +1,13 @@
+node_modules/
+*.log
+.DS_Store
+.env
+.env.*
+*.tgz
+.nyc_output/
+coverage/
+
+# 本地身份配置（含主机名/DID/密钥路径，绝不入库）
+identity.config.json
+identity.config.*.json
+!identity.config.example.json

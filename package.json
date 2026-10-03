@@ -1,0 +1,42 @@
+{
+  "name": "@ouransishen/dsh-identity",
+  "version": "0.0.1",
+  "description": "agent 自身身份（did:web + X.509）的器官化出入口：出示/验证/留痕自主，动用操作者身份硬停",
+  "private": true,
+  "type": "module",
+  "main": "./lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "manifestVersion": 1,
+    "compatibility": {
+      "dshReleases": {
+        "0.2.0-rc.2": "compatible"
+      }
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": ">=0.0.1-rc.1 <0.1.0 || >=0.1.0-rc.1 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ouransishen/dsh-identity.git"
+  },
+  "homepage": "https://github.com/ouransishen/dsh-identity#readme",
+  "bugs": {
+    "url": "https://github.com/ouransishen/dsh-identity/issues"
+  },
+  "author": {
+    "name": "偶然死神",
+    "url": "https://github.com/ouransishen"
+  },
+  "contributors": [
+    {
+      "name": "ouransishen-agent",
+      "email": "agent@ouransishen.cn",
+      "url": "https://ouransishen.com"
+    }
+  ]
+}
